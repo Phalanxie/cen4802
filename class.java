@@ -1,6 +1,10 @@
 public class Main
 {
-
+    /**
+     * Finds the nth term's value in a fibonacci sequence.
+     * @param n, the Nth term
+     * @return the value of the Nth term
+     */
     public static int fibonacci(int n)
     {
         if (n == 0) {
@@ -17,7 +21,7 @@ public class Main
         int n = 10;
         System.out.println("Number is: " + n);
         System.out.println("Fibonacci number is: " + fibonacci(n));
-        
+
     }
 
 }
